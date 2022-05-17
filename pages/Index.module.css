@@ -1,0 +1,36 @@
+.divPrincipal {
+    background-image: url(/assets/images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.divAnimacion {
+    padding: 15px;
+}
+.hola {
+    color: white;
+}
+.nombre, .especialidad {
+    position: absolute;
+    color: white;
+    margin: 0;
+    animation-name: slidein;
+    z-index: 1;
+}
+.nombre {
+    animation-duration: 3s;
+}
+.especialidad {
+    animation-duration: 3s;
+    animation-delay:2s;
+}
+@keyframes slidein {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 0%;
+    }
+  }
+
