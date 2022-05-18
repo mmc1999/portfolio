@@ -1,16 +1,21 @@
 .header {
+    background-color: transparent;
     height: 50px;
-    background-color: black;
 }
 .divBtnHamburguesa {
-    position: absolute;
+    position: fixed;
     right: 20px;
     top: 15px;
     z-index: 11;
+    background-color: white;
+    padding: 10px;
 }
 .btnHamburguesa {
     filter: invert(1);
-    background-color: white;
+    background-color: transparent;
+}
+.btnHamburguesaSinMain {
+    filter:invert(0.5);
 }
 .nav {
     background-color: black;
@@ -20,15 +25,18 @@
     gap: 20px;
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 10px;
     transition: top 0.5s ease;
     z-index: 10;
+    border-bottom: thin solid rgb(202, 202, 202);
+}
+.navSinMain {
+    background-color: white;
+    top: 10px;
 }
 .navDisapeard {
-    position: absolute;
     top: -1000px;
     transition: top 0.5s ease-in;
-    background-color: black;
 }
 .divLink {
     
@@ -39,7 +47,15 @@
     font-weight:300;
     font-size: 14px;
 }
-.link:active {
+.link:hover {
+    font-weight: 500;
+    opacity: 1;
+}
+.linkSinMain {
+    color:black;
+}
+.linkSinMain:hover {
+    font-weight: 500;
     opacity: 1;
 }
 .spanBarra {

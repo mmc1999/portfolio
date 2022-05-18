@@ -1,0 +1,45 @@
+.divPrincipalTrabajo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+    word-wrap: break-word;
+    height: 200px;
+}
+.divSobreImagen {
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    bottom: -60px;
+    margin: 0px auto;
+    padding: 15px;
+    height: auto;
+}
+.cuentaTrabajos {
+    font-size: 10px;
+    margin: 0px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0%;
+}
+.resumenProyecto {
+    margin: 5px 0px;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.divEnlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.enlaces {
+    border: 1px solid black;
+    padding: 7px;
+    font-size: 12px;
+    width: 100px;
+}

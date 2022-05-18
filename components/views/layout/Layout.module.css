@@ -1,0 +1,10 @@
+.mainConColor {
+    position: relative;
+    background-color: white;
+    border: 10px solid black;
+    height:100%;
+    z-index: 20;
+}
+.mainSinColor {
+    background-color: black;
+}

@@ -10,7 +10,7 @@ const useControlMenuMobile = () => {
     }
 
     const handleResize = () => {
-        if(window.innerWidth < 900) {
+        if(window.innerWidth < 750) {
           setScroll(true)
         } else {
           setScroll(false)
@@ -23,9 +23,6 @@ const useControlMenuMobile = () => {
     
         return () => window.removeEventListener("resize", handleResize);
       })
-    
-    
-
   return {
     isMenuAppeard,
     handleMenu,

@@ -7,8 +7,8 @@ export default function Home() {
       <div className={indexModule.divPrincipal}>
         <div className={indexModule.divAnimacion}>
           <span className={indexModule.hola}>Hola,</span><br/>
-          <span className={indexModule.nombre}>Soy matias</span><br/>
-          <span className={indexModule.especialidad}>Un desarrollador frontend</span>
+          <span className={indexModule.nombre}>Soy matias.</span><br/>
+          <span className={indexModule.especialidad}>Un desarrollador frontend.</span>
         </div>
       </div>
     </Layout>

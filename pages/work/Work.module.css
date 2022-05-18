@@ -1,0 +1,29 @@
+.divWorkPrincipal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.divTitulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}      
+.h1 {
+    font-size: 25px;
+}
+.resumenSeccion {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: .8px;
+    line-height: 25px;
+}
+.divTrabajos {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding: 15px;
+    margin-bottom: 200px;
+}

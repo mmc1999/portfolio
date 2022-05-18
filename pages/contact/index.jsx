@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from '../../components/views/layout/Layout'
 
 const index = () => {
   return (
-    <div>contact</div>
+    <Layout color="white">
+      
+    </Layout>
   )
 }
 

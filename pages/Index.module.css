@@ -10,9 +10,12 @@
 }
 .hola {
     color: white;
+    font-size: 22px;
+    font-weight: 900;
 }
 .nombre, .especialidad {
-    position: absolute;
+    font-weight: 900;
+    font-size: 22px;
     color: white;
     margin: 0;
     animation-name: slidein;
@@ -22,8 +25,8 @@
     animation-duration: 3s;
 }
 .especialidad {
+    animation-name: slideout;
     animation-duration: 3s;
-    animation-delay:2s;
 }
 @keyframes slidein {
     0% {
@@ -32,5 +35,17 @@
     100% {
         margin-left: 0%;
     }
+}
+@keyframes slideout {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 0%;
+    }
   }
-
+@media screen and (min-width:500px) {
+    .hola, .nombre, .especialidad {
+        font-size: 30px;
+    }
+}

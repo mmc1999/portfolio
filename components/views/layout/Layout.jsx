@@ -1,8 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../header/Header'
+import moduleLayout from "./Layout.module.css"
 
-const Layout = ({children}) => {
+const Layout = ({children, color}) => {
   return (
     <>
         <Head>
@@ -12,8 +13,12 @@ const Layout = ({children}) => {
             <meta name="keywords" content="Desarrollador frontend, desarrollador react, desarrollador javascript"/>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Header />
-        <main>
+        
+        
+        <main 
+          className={color ? moduleLayout.mainConColor : moduleLayout.mainSinColor}
+        >
+            <Header color={color} />
             {children}
         </main>
         <footer>
