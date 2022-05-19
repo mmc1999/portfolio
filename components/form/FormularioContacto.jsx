@@ -31,7 +31,7 @@ const FormularioContacto = ({formik}) => {
         <div className={moduleForm.divInput}>
             <textarea 
                 onChange={handleChange} 
-                value={values.comenario}
+                value={values.comentario}
                 placeholder="Comentario"
                 className={`${moduleForm.textArea} ${moduleForm.allInput}`}
                 name="comentario"
