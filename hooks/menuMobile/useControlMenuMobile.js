@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 const useControlMenuMobile = () => {
     const [isMenuAppeard, setIsMenuAppeard] = useState(false);
-    const [scroll, setScroll] = useState( false);
+    const [scroll, setScroll] = useState(false);
 
     const handleMenu = () => {
         if(isMenuAppeard) setIsMenuAppeard(false)
@@ -17,7 +17,7 @@ const useControlMenuMobile = () => {
           setScroll(false)
         }
       }
-    
+      useEffect(() => handleResize, [])
       useEffect(() => {
         window.addEventListener("resize", handleResize);
         window.addEventListener("scroll", handleScroll)
