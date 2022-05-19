@@ -22,15 +22,19 @@
     flex-direction: column;
     gap: 20px;
     position: fixed;
-    width: 90%;
+    width: 100%;
     top: 10px;
     transition: top 0.5s ease;
     z-index: 13;
     border-bottom: thin solid rgb(202, 202, 202);
 }
 .navSinMain {
+    
     background-color: white;
     top: 10px;
+    left: 0px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
 }
 .navDisapeard {
     top: -1000px;

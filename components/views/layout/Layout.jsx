@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Header from '../header/Header'
 import moduleLayout from "./Layout.module.css"
+import Footer from '../footer/Footer'
 
 const Layout = ({children, color}) => {
   return (
@@ -14,16 +15,14 @@ const Layout = ({children, color}) => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         
-        
         <main 
           className={color ? moduleLayout.mainConColor : moduleLayout.mainSinColor}
         >
             <Header color={color} />
             {children}
+            
         </main>
-        <footer>
-
-        </footer>
+        <Footer />
     </>
   )
 }

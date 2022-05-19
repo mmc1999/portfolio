@@ -11,7 +11,7 @@ const useControlMenuMobile = () => {
     const handleScroll = () => {if(window.scrollY > 20) setIsMenuAppeard(false)}
     
     const handleResize = () => {
-        if(window.innerWidth < 750) {
+        if(window.innerWidth > 750) {
           setScroll(true)
         } else {
           setScroll(false)

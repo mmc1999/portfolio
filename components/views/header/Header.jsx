@@ -31,19 +31,19 @@ const Header = ({color}) => {
               <a className={`${moduleHeader.link} ${color ? moduleHeader.linkSinMain : ""}`}>01 : Inicio</a>
             </Link>
           </div>
-          {!scroll ? <span className={moduleHeader.spanBarra}>|</span> : ""}
+          {scroll ? <span className={moduleHeader.spanBarra}>|</span> : ""}
           <div className={moduleHeader.divLink}>
             <Link href="/work">
               <a className={`${moduleHeader.link} ${color ? moduleHeader.linkSinMain : ""}`}>02 : Proyectos</a>
             </Link>
           </div>
-          {!scroll ? <span className={moduleHeader.spanBarra}>|</span>: ""}
+          {scroll ? <span className={moduleHeader.spanBarra}>|</span>: ""}
           <div className={moduleHeader.divLink}>
             <Link href="/about">
               <a className={`${moduleHeader.link} ${color ? moduleHeader.linkSinMain : ""}`}>03 : Sobre mi</a>
             </Link>
           </div>
-          {!scroll ? <span className={moduleHeader.spanBarra}>|</span>: ""}
+          {scroll ? <span className={moduleHeader.spanBarra}>|</span>: ""}
           <div className={moduleHeader.divLink}>
             <Link href="/contact">
               <a className={`${moduleHeader.link} ${color ? moduleHeader.linkSinMain : ""}`}>04 : Contacto</a>

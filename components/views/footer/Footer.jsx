@@ -1,9 +1,11 @@
 import React from 'react'
+import moduleFooter from "./Footer.module.css"
 
 const Footer = () => {
   return (
-    <footer>
-        
+    <footer className={moduleFooter.footer}>
+        <p className={moduleFooter.info}>© UNTITLED | Sitio web creado por <a href='https://matiascentorbi.vercel.app/' className={moduleFooter.enlace}>Matias centorbi</a> 
+        </p>
     </footer>
   )
 }
