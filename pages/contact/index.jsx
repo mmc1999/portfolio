@@ -18,19 +18,19 @@ const Index = () => {
 
   const initialValues={tema: "", email: "", comentario:"" };
 
-  const onSubmit = () => {
-    console.log(formik)
-      /*emailjs.send('service_e89k5es', 'template_kdnrdal', {
+  const onSubmit = (values, resetForm) => {
+    console.log(values)
+      emailjs.send('service_e89k5es', 'template_kdnrdal', {
         comentario: values.comentario,
         tema: values.tema,
         email: values.email
       }, "jMk1WAgEfrguR9vt8")
         .then((result) => {
-           formik.resetForm({});
+           formik.resetForm({values: ""});
+           
         }, (error) => {
             console.log(error.text);
-            
-        });*/
+        });
       
   };
   
