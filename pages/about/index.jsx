@@ -13,13 +13,13 @@ const index = () => {
           </p>
         </div>
         <div className={moduleAbout.divSecciones}>
-          <h2 className={moduleAbout.subtitulos}>Objetivo</h2>
+          <h2 className={moduleAbout.subtitulos}>Objetivos</h2>
           <p className={moduleAbout.parrafo}>Dominar las tecnologias orientadas al frontend para luego pasar aprender tecnologias backend y asi ser desarrollador fullstack. Laboralmente me gustaria establecerme en una empresa que me brinde estabilidad laboral y que me permita desarrollar mi carrera y crecer como profesional.</p>
         </div>
         <div className={moduleAbout.divSecciones}>
           <h2 className={moduleAbout.subtitulos}>Tecnologias</h2>
           <div>
-
+            {/*Insertar imagenes de las tecnologias aprendedias, en curso y proximamente*/}
           </div>
         </div>
         <a href='assets/my_pdf.pdf' download>Download pdf</a>

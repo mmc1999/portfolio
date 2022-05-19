@@ -8,9 +8,9 @@ const Header = ({color}) => {
   let {
     handleMenu,
     isMenuAppeard,
-    scroll
+    scroll,
   } = useControlMenuMobile()
-  
+ 
   return (
     <header className={moduleHeader.header} style={{backgroundColor:color}}>
         <div 

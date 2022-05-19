@@ -6,9 +6,7 @@
     position: fixed;
     right: 20px;
     top: 15px;
-    z-index: 11;
-    background-color: white;
-    padding: 10px;
+    z-index: 14;
 }
 .btnHamburguesa {
     filter: invert(1);
@@ -23,11 +21,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 90%;
     top: 10px;
     transition: top 0.5s ease;
-    z-index: 10;
+    z-index: 13;
     border-bottom: thin solid rgb(202, 202, 202);
 }
 .navSinMain {
