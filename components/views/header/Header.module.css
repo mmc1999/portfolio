@@ -64,3 +64,29 @@
     color: white;
     opacity: 0.6;
 }
+
+@media screen and (min-width:750px) {
+    .btnHamburguesa, .btnHamburguesaSinMain, .divBtnHamburguesa {
+        display: none;
+    }
+    .nav {
+        background-color: black;
+        padding: 18px;
+        display: flex;
+        flex-direction: row; 
+        gap: 20px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        transition: top 0.5s ease;
+        justify-content: center;
+        border-bottom: none; 
+    }
+    .navSinMain {
+        background-color: white;
+    }
+    .barraBlack {
+        color: black;
+        opacity: 1;
+    }
+}
