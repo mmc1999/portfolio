@@ -22,7 +22,7 @@ const index = () => {
             {/*Insertar imagenes de las tecnologias aprendedias, en curso y proximamente*/}
           </div>
         </div>
-        <a href='assets/my_pdf.pdf' download>Download pdf</a>
+        <a href='/assets/cv.pdf' download className={moduleAbout.cv}>Descargar cv</a>
       </div>
     </Layout>
   )

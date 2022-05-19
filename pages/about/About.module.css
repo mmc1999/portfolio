@@ -24,3 +24,7 @@
     font-size: 13px;
     text-align: center;
 }
+.cv {
+    padding: 10px;
+    border: 1px solid black;
+}
