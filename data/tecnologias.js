@@ -29,4 +29,14 @@ export const tecnologias = [
         imagen: "/assets/tecnologias/material_ui.png",
         nombre: "Material UI"
     },
+    {
+        id:7,
+        imagen: "/assets/tecnologias/github1.png",
+        nombre: "Github"
+    },
+    {
+        id:8,
+        imagen: "/assets/tecnologias/git.png",
+        nombre: "Git"
+    },
 ]
