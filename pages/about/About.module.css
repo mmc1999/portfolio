@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    height: 83vh;
 }
 .h1 {
     font-size: 25px;
@@ -54,6 +53,9 @@
     flex-direction: column;
 }
 @media all and (min-width:1000px) {
+    .divPrincipalAbout {
+        height: 83vh;
+    }
     .divAbout {
         display: grid;
         grid-template-columns: 1fr 1fr;
