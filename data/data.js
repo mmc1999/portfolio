@@ -19,7 +19,7 @@ export const data = [
         id:3,
         imagen: "/assets/images/todo.png",
         title:"TODO LIST",
-        text:"App hecha con react.",
+        text:"App hecha con react. ",
         github: "https://github.com/mmc1999/to-do-list-react",
         sitio: "https://agitated-cray-295fec.netlify.app/"
     },
@@ -35,7 +35,7 @@ export const data = [
         id:5,
         imagen: "/assets/images/recetario.png",
         title:"Recetario - Alkemy",
-        text:"Sitio web hecho para alkemy. Hecho con react.",
+        text:"Sitio web hecho para alkemy. Hecho con react. Usuario: challenge@alkemy.org, contraseña: react",
         github: "https://github.com/mmc1999/alkemy",
         sitio: "https://hopeful-johnson-5772a3.netlify.app/#/login"
     },
