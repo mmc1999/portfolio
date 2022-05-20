@@ -44,23 +44,28 @@ const Index = () => {
         <section className={contactoModule.sectionContacto}>
           <FormularioContacto formik={formik}/>
           <div className={contactoModule.divRedes}>
-            <p className={contactoModule.titleRedes}>Sigueme en mis redes</p>
-            <a href='https://www.linkedin.com/in/matias-centorbi/' target="_blank" rel="noreferrer" >
-              <Image 
-                src="/assets/linkedin.png" 
-                alt="Icono de linkedin"
-                width={20}
-                height={20}
-              />
-            </a>
-            <a href='https://github.com/mmc1999' target="_blank" rel="noreferrer" >
-              <Image 
-                src="/assets/github.png" 
-                alt="Icono de github"
-                width={20}
-                height={20}
-              />
-            </a>
+            <div>
+              <p className={contactoModule.titleRedes}>Sigueme en mis redes</p>
+            </div>
+            <div className={contactoModule.divIconosRedes}>
+              <a href='https://www.linkedin.com/in/matias-centorbi/' target="_blank" rel="noreferrer" >
+                <Image 
+                  src="/assets/linkedin.png" 
+                  alt="Icono de linkedin"
+                  width={20}
+                  height={20}
+                />
+              </a>
+              <a href='https://github.com/mmc1999' target="_blank" rel="noreferrer" >
+                <Image 
+                  src="/assets/github.png" 
+                  alt="Icono de github"
+                  width={20}
+                  height={20}
+                />
+              </a>
+            </div>
+            
           </div>
         </section>
         

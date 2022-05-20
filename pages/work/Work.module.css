@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 .divTitulo {
     display: flex;
@@ -26,4 +27,10 @@
     gap: 150px;
     padding: 15px;
     margin-bottom:100px;
+}
+@media all and (min-width:750px ) {
+    .divTrabajos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }

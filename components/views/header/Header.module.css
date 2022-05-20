@@ -76,11 +76,12 @@
         flex-direction: row; 
         gap: 20px;
         position: fixed;
-        top: 0px;
+        top: 10px;
         width: 100%;
         transition: top 0.5s ease;
         justify-content: center;
         border-bottom: none; 
+        
     }
     .navSinMain {
         background-color: white;
@@ -88,5 +89,8 @@
     .barraBlack {
         color: black;
         opacity: 1;
+    }
+    .divLink > * {
+        font-size: 18px;
     }
 }

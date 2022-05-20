@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    height: 83vh;
 }
 .h1 {
     font-size: 25px;
@@ -9,10 +10,24 @@
 }
 .divRedes {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
-    
+.divIconosRedes {
+    display: flex;
+    gap: 30px;
+}
 .titleRedes {
     text-align: center;
+}
+@media all and (min-width:1000px) {
+    .divRedes {
+        justify-content: flex-start;
+    }
+    .sectionContacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

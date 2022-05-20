@@ -38,3 +38,14 @@
     margin-top: 3px;
     color: red;
 }
+@media all and (min-width:750px) {
+    .form {
+        width: 400px;
+        margin: 0px auto;
+    }
+}
+@media all and (min-width:1000px) {
+    .form {
+        width: 400px;
+    }
+}

@@ -49,3 +49,14 @@
         font-size: 30px;
     }
 }
+@media screen and (min-width:750px) {
+    .divPrincipal {
+    }
+    .divAnimacion {
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .hola, .nombre, .especialidad {
+        font-size: 45px;
+    }
+}
