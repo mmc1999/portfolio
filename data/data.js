@@ -39,4 +39,12 @@ export const data = [
         github: "https://github.com/mmc1999/alkemy",
         sitio: "https://hopeful-johnson-5772a3.netlify.app/#/login"
     },
+    {
+        id:6,
+        imagen: "/assets/images/clima.png",
+        title:"El clima en tu ciudad",
+        text:"Sitio web del clima. Hecho con react",
+        github: "https://github.com/mmc1999/app-del-clima",
+        sitio: "https://climaentuciudad.vercel.app/"
+    },
 ]
