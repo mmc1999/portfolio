@@ -20,7 +20,7 @@ const Index = () => {
 
   const onSubmit = (values, resetForm) => {
     console.log(values)
-      emailjs.send('service_e89k5es', 'template_kdnrdal', {
+      emailjs.send('service_e89k5es', 'template_du3nvxe', {
         comentario: values.comentario,
         tema: values.tema,
         email: values.email
